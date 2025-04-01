@@ -6,7 +6,7 @@ const HeroSection: React.FC = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover max-w-none"
-        src="/assets/img/hero-loop.mp4"
+        src="/assets/img/compressed-hero-loop.mp4"
         autoPlay
         loop
         muted

@@ -44,3 +44,6 @@ coverage/
 
 # Optional: OS-specific
 *.swp
+
+# Ignore original large video
+/public/assets/img/hero-loop.mp4
