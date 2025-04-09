@@ -29,13 +29,13 @@ const HeroSection: React.FC = () => {
         </p>
 
         {/* buttons */}
-        <div className="bg-black/20 backdrop-blur-md p-4 rounded-2xl shadow-lg flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center items-center text-center">
+        <div className="bg-black/25 backdrop-blur-sm rounded-2xl shadow-lg flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center items-center text-center">
   <a
     href="#sections"
     className="group block w-64 px-6 py-5 rounded-2xl border border-white text-white shadow transition transform hover:scale-[1.02] hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
   >
     <div className="font-serif italic text-3xl">by Section</div>
-    <div className="text-sm text-gray-300 mt-1">Read the catechism in order</div>
+    <div className="text-sm mt-1">Read the catechism in order</div>
   </a>
 
   <a
@@ -43,7 +43,7 @@ const HeroSection: React.FC = () => {
     className="group block w-64 px-6 py-5 rounded-2xl border border-white text-white shadow transition transform hover:scale-[1.02] hover:bg-white hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-300"
   >
     <div className="font-serif italic text-3xl">by Topic</div>
-    <div className="text-sm text-gray-300 mt-1">Browse the catechism by topic</div>
+    <div className="text-sm mt-1">Browse the catechism by topic</div>
   </a>
 </div>
 

@@ -7,6 +7,8 @@ import NavBar from './components/NavBar'
 import ResourcesSection from './components/ResourcesSection'
 import SectionsSection from './components/SectionsSection'
 import TopicsSection from './components/TopicsSection'
+import './components/VerseNumber'
+
 
 function App() {
   return (
