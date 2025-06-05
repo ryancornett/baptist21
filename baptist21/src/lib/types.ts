@@ -18,6 +18,9 @@ export type CatechismItem = {
     song?: string
     color?: string
     confession?: string[]
+    param1?: any
+    param2?: any
+    param3?: any
   }
 
   export type Section = {
